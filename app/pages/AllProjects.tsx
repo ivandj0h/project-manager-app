@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectsHeader from "./components/ProjectsHeader";
+import ProjectsSubHeader from "./components/ProjectsSubHeader";
 
 const AllProjects = () => {
   return (
@@ -11,11 +12,11 @@ const AllProjects = () => {
 
   function AllProjectsArea() {
     return (
-      <div>
+      <div className="w-[78%] p-10 flex flex-col gap-3 border">
         {/* Search Bar and add project button */}
         <ProjectsHeader />
         {/* My Projects Title and The Add Button */}
-        <ProjectsHeader />
+        <ProjectsSubHeader />
       </div>
     );
   }
