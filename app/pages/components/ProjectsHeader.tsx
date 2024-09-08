@@ -19,7 +19,7 @@ const ProjectsHeader = () => {
         {/* Search Icon */}
         <div>
           <SearchIcon
-            className="text-slate-400"
+            className="text-slate-800"
             outline-none
             sx={{ fontSize: "26px" }}
           />

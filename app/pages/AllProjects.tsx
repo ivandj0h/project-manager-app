@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsHeader from "./components/ProjectsHeader";
 import ProjectsSubHeader from "./components/ProjectsSubHeader";
+import AllProjectsSection from "./components/AllProjectsSection";
 
 const AllProjects = () => {
   return (
@@ -17,6 +18,8 @@ const AllProjects = () => {
         <ProjectsHeader />
         {/* My Projects Title and The Add Button */}
         <ProjectsSubHeader />
+        {/* All Dynamics Projects Cards */}
+        <AllProjectsSection />
       </div>
     );
   }

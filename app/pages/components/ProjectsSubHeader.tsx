@@ -10,16 +10,19 @@ const ProjectsSubHeader = () => {
   );
 
   function MyProjectsText() {
-    return <p className="text-[26px] font-bold">My Projects</p>;
+    return <p className="text-[26px] font-bold text-slate-800">My Projects</p>;
   }
 
   function SortByButton() {
     return (
       <div className="flex text-[15px] font-semibold gap-3">
-        <span className="text-slate-300">Sort By</span>
+        <span className="text-slate-400">Sort By</span>
         <div className="flex gap-1 items-center cursor-pointer">
           <span className="text-slate-800">Recent Project</span>
-          <KeyboardArrowDownIcon sx={{ fontSize: "19px" }} />
+          <KeyboardArrowDownIcon
+            sx={{ fontSize: "19px" }}
+            className="text-slate-800"
+          />
         </div>
       </div>
     );
