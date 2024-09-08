@@ -2,12 +2,14 @@ import React from "react";
 import ProjectsHeader from "./components/ProjectsHeader";
 import ProjectsSubHeader from "./components/ProjectsSubHeader";
 import AllProjectsSection from "./components/AllProjectsSection";
+import StatsRightSideBar from "./components/StatsRightSideBar";
 
 const AllProjects = () => {
   return (
     <div className="bg-slate-50 w-full min-h-screen flex">
       <AllProjectsArea />
       {/* Project Sidebar we're going to add */}
+      <StatsRightSideBar />
     </div>
   );
 
